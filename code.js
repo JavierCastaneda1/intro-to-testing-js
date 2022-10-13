@@ -22,9 +22,24 @@ function sayHello(input) {
     }
 }
 
-// *#8 refactor to be a SWITCH STATEMENT*
+//        *#8 refactor to be a SWITCH STATEMENT*
 
 //  *refactored #6*
 // function sayHello(input) {
 //     return "Hello, " + input + "!"
 // }
+
+//             *exercise 10*
+
+function isFive(input) {
+    let nInput = parseInt(input);
+    if (nInput === 5) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//             *exercise 11*
+
+

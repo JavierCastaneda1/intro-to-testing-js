@@ -45,3 +45,19 @@ describe('sayHello', function() {
         expect(sayHello()).not.toBe(undefined);
     });
 });
+
+
+describe('isFive', function() {
+    it('should be a defined function', function() {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should returns a boolean no matter what the input', function() {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('should return true when passed 5', function() {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it("If passed the string 5 Do you want isFive to return true for that?", function() {
+        expect(isFive()).not.toBe(undefined);
+    });
+});
